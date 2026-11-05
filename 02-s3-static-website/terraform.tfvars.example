@@ -1,0 +1,8 @@
+# Copia este archivo a terraform.tfvars y ajusta los valores:
+#   cp terraform.tfvars.example terraform.tfvars
+
+aws_region    = "us-east-1"
+project_name  = "02-s3-static-website"
+environment   = "lab"
+bucket_prefix = "tf-lab-website"
+index_document = "index.html"

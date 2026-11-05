@@ -1,0 +1,9 @@
+# Copia este archivo a terraform.tfvars y ajusta los valores:
+#   cp terraform.tfvars.example terraform.tfvars
+
+aws_region         = "us-east-1"
+project_name       = "tf-lab-hello"
+environment        = "lab"
+lambda_timeout     = 10
+lambda_memory_size = 128
+log_retention_days = 7

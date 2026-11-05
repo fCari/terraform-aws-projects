@@ -1,0 +1,26 @@
+# Estado local de Terraform. Nunca se sube al repositorio:
+# contiene IDs reales de recursos y, a veces, datos sensibles.
+.terraform/
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+*.tfstate
+*.tfstate.*
+terraform.tfstate.d/
+crash.log
+crash.*.log
+
+# Variables con valores reales. El ejemplo sí se versiona.
+*.tfvars
+!*.tfvars.example
+
+# Overrides locales
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Artefactos generados al empaquetar Lambda
+*.zip
+
+# Sistema
+.DS_Store
